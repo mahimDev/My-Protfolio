@@ -1,4 +1,4 @@
-import Demo from "../../Shared/Demo/Demo";
+// import Demo from "../../Shared/Demo/Demo";
 import Banner from "../Banner/Banner";
 
 import Carts from "../Carts/Carts";
