@@ -1,0 +1,25 @@
+.cursor {
+  cursor: none;
+}
+
+.custom-cursor {
+  width: 5px;
+  height: 5px;
+  border: 2px solid rgba(118, 1, 1, 0.354);
+}
+.cursor-outLine {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgba(118, 1, 1, 0.354);
+}
+
+.cursor-outLine,
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  z-index: 1;
+  pointer-events: none;
+}

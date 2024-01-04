@@ -1,10 +1,13 @@
 
+
 // import './demo.css'
 const Demo = () => {
 
 
+
     return (
-        <div className='flex justify-center items-center min-h-[100vh] bg-[#ffffff] '>
+        <div className='cursor  min-h-[100vh] bg-[#ffffff] '>
+
         </div>
     );
 };
