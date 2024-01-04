@@ -1,4 +1,4 @@
-// import Demo from "../../Shared/Demo/Demo";
+import Demo from "../../Shared/Demo/Demo";
 import Banner from "../Banner/Banner";
 
 import Carts from "../Carts/Carts";
@@ -8,9 +8,9 @@ const Home = () => {
         <div>
 
             <Banner></Banner>
-            {/* <Demo></Demo> */}
-            <Carts></Carts>
 
+            <Carts></Carts>
+            <Demo></Demo>
         </div>
     );
 };

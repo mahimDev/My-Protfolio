@@ -2,7 +2,7 @@
   width: 300px;
   height: 100px;
   border-radius: 10px;
-  box-shadow: 16px 14px 20px #a9a9a98c;
+  box-shadow: 16px 14px 20px #b9b9b98c;
   position: relative;
   overflow: hidden;
   display: flex;
@@ -33,7 +33,7 @@
   color: #cb1400;
   font-size: 40px;
   font-weight: 700;
-  box-shadow: inset 20px 20px 20px #ffffff64;
+  box-shadow: inset 20px 20px 20px #ffffff8a;
 }
 
 @keyframes rotate {
