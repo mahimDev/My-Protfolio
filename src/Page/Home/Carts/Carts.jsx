@@ -24,7 +24,7 @@ const Carts = () => {
                 <MyWork></MyWork>
             </div>
 
-            <div className="flex justify-center mt-5  gap-20">
+            <div className="grid lg:grid-cols-3 mx-auto mt-5  gap-20">
                 {
                     cartData.map(data => <Cart key={data?.id} data={data}></Cart>)
                 }

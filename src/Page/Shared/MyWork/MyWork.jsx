@@ -1,8 +1,8 @@
 import './myWork.css'
 const MyWork = () => {
     return (
-        <div>
-            <div className="snake">
+        <div className='mt-14'>
+            <div className="snake ">
 
 
             </div>

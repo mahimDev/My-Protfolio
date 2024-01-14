@@ -4,20 +4,42 @@
     "image": "https://i.ibb.co/RS58hsd/Screenshot-24.png",
     "heading": "Bike Zone",
     "paragraph": "Crafted an innovative web solution using HTML, CSS, JavaScript, and React to provide dynamic and user-friendly experiences. Implemented responsive design for optimal performance on various devices.",
-    "link": "https://i.ibb.co/RS58hsd/Screenshot-24.png"
+    "link": "https://mahimdev.github.io/biker-zone/"
   },
   {
     "id": 2,
     "image": "https://i.ibb.co/TH7d06C/Screenshot-26.png",
     "heading": "Fruit Burst",
     "paragraph": "Designed and implemented a visually stunning user interface with a focus on user experience. Leveraged the power of React to create seamless interactions and animations.",
-    "link": "https://i.ibb.co/TH7d06C/Screenshot-26.png"
+    "link": "https://mahimdev.github.io/Fruit-Burst/"
   },
   {
     "id": 3,
     "image": "https://i.ibb.co/k0wJXHc/Screenshot-25.png",
     "heading": "PH Tube",
     "paragraph": "Built a responsive front-end with HTML, CSS, and JavaScript to ensure optimal performance across all screen sizes. Implemented modern design principles for a sleek and intuitive user interface.",
-    "link": "https://i.ibb.co/k0wJXHc/Screenshot-25.png"
+    "link": "https://rococo-manatee-c2943c.netlify.app/"
+  },
+
+  {
+    "id": 4,
+    "image": "https://i.ibb.co/RS58hsd/Screenshot-24.png",
+    "heading": "Bike Zone",
+    "paragraph": "Crafted an innovative web solution using HTML, CSS, JavaScript, and React to provide dynamic and user-friendly experiences. Implemented responsive design for optimal performance on various devices.",
+    "link": "https://mahimdev.github.io/biker-zone/"
+  },
+  {
+    "id": 5,
+    "image": "https://i.ibb.co/TH7d06C/Screenshot-26.png",
+    "heading": "Fruit Burst",
+    "paragraph": "Designed and implemented a visually stunning user interface with a focus on user experience. Leveraged the power of React to create seamless interactions and animations.",
+    "link": "https://mahimdev.github.io/Fruit-Burst/"
+  },
+  {
+    "id": 6,
+    "image": "https://i.ibb.co/k0wJXHc/Screenshot-25.png",
+    "heading": "PH Tube",
+    "paragraph": "Built a responsive front-end with HTML, CSS, and JavaScript to ensure optimal performance across all screen sizes. Implemented modern design principles for a sleek and intuitive user interface.",
+    "link": "https://rococo-manatee-c2943c.netlify.app/"
   }
 ]

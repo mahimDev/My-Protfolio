@@ -2,7 +2,7 @@
   width: 10px;
   height: 25px;
 
-  transition: width 2s;
+  transition: width 1s;
 }
 .mahim:hover {
   color: wheat;

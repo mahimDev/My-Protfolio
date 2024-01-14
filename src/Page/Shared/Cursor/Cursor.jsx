@@ -13,7 +13,7 @@ const Cursor = () => {
             setCursor1Style({ left: posX, top: posY, });
 
             // Update styles for Curso2
-            setCursor2Style({ left: posX, top: posY, transition: 'left 0.1s, top 0.1s', });
+            setCursor2Style({ left: posX, top: posY, transition: 'left 0.4s,  top 0.3s ,  ' });
         };
         window.addEventListener('mousemove', handleMouseMove);
 
