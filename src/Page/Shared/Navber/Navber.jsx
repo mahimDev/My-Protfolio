@@ -50,7 +50,7 @@ const Navber = () => {
                 </ul>
             </div>
             <div>
-                <button className="btn text-white " >Login</button>
+                <button className="botton text-white " >Login</button>
 
 
             </div>
