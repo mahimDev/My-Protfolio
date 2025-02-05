@@ -21,12 +21,7 @@ const Cart = ({ data }) => {
                         <Link to={link}><p className='text-base font-light ml-2'>Live Link :{link} </p></Link>
                     </div>
                 </div>
-
-
             </div>
-
-
-
         </div>
     );
 };

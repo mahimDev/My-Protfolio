@@ -10,8 +10,9 @@ const Home = () => {
             <Cursor></Cursor>
             <Banner></Banner>
 
-            <Carts></Carts>
-            <Demo></Demo>
+            {/* <Carts></Carts> */}
+            {/* 3d text */}
+            {/* <Demo></Demo> */}
         </div>
     );
 };
