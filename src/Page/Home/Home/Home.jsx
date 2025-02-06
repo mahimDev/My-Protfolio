@@ -1,10 +1,8 @@
 import Cursor from "../../Shared/Cursor/Cursor";
-import Demo from "../../Shared/Demo/Demo";
+import Proojects from "../../Shared/Projects/Proojects";
+import Skills from "../../Shared/Skills/Skills";
 import AboutMe from "../AboutMe/AboutMe";
 import Banner from "../Banner/Banner";
-
-import Carts from "../Carts/Carts";
-
 const Home = () => {
     return (
         <div className="scrolling">
@@ -14,6 +12,12 @@ const Home = () => {
             <main className="w=10/12 mx-auto">
                 <section className="my-20">
                     <AboutMe />
+                </section>
+                <section className="my-20">
+                    <Skills />
+                </section>
+                <section className="my-20">
+                    <Proojects />
                 </section>
             </main>
             {/* <Carts></Carts> */}

@@ -20,7 +20,7 @@ const Carts = () => {
         <div className="">
 
 
-            <div className="flex justify-center my-10">
+            <div className="flex justify-center ">
                 <MyWork></MyWork>
             </div>
 

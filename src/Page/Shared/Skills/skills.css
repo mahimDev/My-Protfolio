@@ -1,0 +1,17 @@
+.skillsBox {
+  box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.463);
+  padding: 30px;
+  border-radius: 10px;
+  transition: border-color 0.6 ease-in-out;
+}
+.skillsBox:hover {
+  /* border: 2px solid rgb(212, 212, 212); */
+  border-radius: 12px;
+}
+.skillsBox:hover img {
+  transform: scale(1.2);
+}
+.skillsBox img {
+  filter: drop-shadow(5px 5px 10px rgba(0, 0, 0, 0.463));
+  transition: transform 0.5s ease-in-out;
+}

@@ -2,7 +2,7 @@ import aboutImg from '../../../assets/1.png';
 import SectionTitle from '../../../Components/SectionTile/SectionTitle';
 const AboutMe = () => {
     return (
-        <div className='text-white'>
+        <div id="aboutMe" className='text-white'>
             <h1 className='text-4xl ml-56'></h1>
             <SectionTitle title={"A little bit  about me"} />
             <p></p>
