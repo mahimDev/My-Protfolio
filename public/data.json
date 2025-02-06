@@ -1,45 +1,72 @@
 [
   {
     "id": 1,
-    "image": "https://i.ibb.co/RS58hsd/Screenshot-24.png",
-    "heading": "Bike Zone",
-    "paragraph": "Crafted an innovative web solution using HTML, CSS, JavaScript, and React to provide dynamic and user-friendly experiences. Implemented responsive design for optimal performance on various devices.",
-    "link": "https://mahimdev.github.io/biker-zone/"
+    "project_name": "HavenHub",
+    "project_img": "https://i.ibb.co.com/Txs6TyDM/Screenshot-229.png",
+    "main_technology_stack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Express.js",
+      "Node.js",
+      "MongoDB"
+    ],
+    "brief_description": "A user-friendly hotel booking platform with real-time availability and secure reservations.",
+    "live_project_link": "https://havenhub-6c2d4.web.app/",
+    "github_repo_link": "https://github.com/mahimDev/haven-hub-client",
+    "challenges_faced_developing_the_project": "Implementing real-time booking updates and handling payment gateway integration.",
+    "improvement_and_future_plan": "Enhance the UI, add multi-language support, and implement AI-based recommendations."
   },
   {
     "id": 2,
-    "image": "https://i.ibb.co/TH7d06C/Screenshot-26.png",
-    "heading": "Fruit Burst",
-    "paragraph": "Designed and implemented a visually stunning user interface with a focus on user experience. Leveraged the power of React to create seamless interactions and animations.",
-    "link": "https://mahimdev.github.io/Fruit-Burst/"
+    "project_name": "Visa Navigator",
+    "project_img": "https://i.ibb.co.com/84ThjtHS/Screenshot-238.png",
+    "main_technology_stack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Node.js",
+      "MongoDB"
+    ],
+    "brief_description": "A visa assistance platform providing guidelines, application tracking, and document management.",
+    "live_project_link": "https://global-gate-b17fa.web.app/",
+    "github_repo_link": "https://github.com/mahimDev/global-gate-client",
+    "challenges_faced_developing_the_project": "Ensuring accurate and up-to-date visa regulations for different countries.",
+    "improvement_and_future_plan": "Integrate AI-based suggestions and an interactive chatbot for user queries."
   },
   {
     "id": 3,
-    "image": "https://i.ibb.co/k0wJXHc/Screenshot-25.png",
-    "heading": "PH Tube",
-    "paragraph": "Built a responsive front-end with HTML, CSS, and JavaScript to ensure optimal performance across all screen sizes. Implemented modern design principles for a sleek and intuitive user interface.",
-    "link": "https://rococo-manatee-c2943c.netlify.app/"
+    "project_name": "Scholarship Management System",
+    "project_img": "https://example.com/scholarship-management.jpg",
+    "main_technology_stack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Express.js",
+      "MongoDB",
+      "JWT"
+    ],
+    "brief_description": "A platform that helps students find, apply for, and track scholarships efficiently.",
+    "live_project_link": "https://scholarship-management.example.com",
+    "github_repo_link": "https://github.com/yourusername/scholarship-management",
+    "challenges_faced_developing_the_project": "Implementing secure authentication and managing complex user roles.",
+    "improvement_and_future_plan": "Add an AI-based recommendation system and automate the application process."
   },
-
   {
     "id": 4,
-    "image": "https://i.ibb.co/RS58hsd/Screenshot-24.png",
-    "heading": "Bike Zone",
-    "paragraph": "Crafted an innovative web solution using HTML, CSS, JavaScript, and React to provide dynamic and user-friendly experiences. Implemented responsive design for optimal performance on various devices.",
-    "link": "https://mahimdev.github.io/biker-zone/"
-  },
-  {
-    "id": 5,
-    "image": "https://i.ibb.co/TH7d06C/Screenshot-26.png",
-    "heading": "Fruit Burst",
-    "paragraph": "Designed and implemented a visually stunning user interface with a focus on user experience. Leveraged the power of React to create seamless interactions and animations.",
-    "link": "https://mahimdev.github.io/Fruit-Burst/"
-  },
-  {
-    "id": 6,
-    "image": "https://i.ibb.co/k0wJXHc/Screenshot-25.png",
-    "heading": "PH Tube",
-    "paragraph": "Built a responsive front-end with HTML, CSS, and JavaScript to ensure optimal performance across all screen sizes. Implemented modern design principles for a sleek and intuitive user interface.",
-    "link": "https://rococo-manatee-c2943c.netlify.app/"
+    "project_name": "Arabic Vocabulary Learning",
+    "project_img": "https://example.com/arabic-learning.jpg",
+    "main_technology_stack": [
+      "React",
+      "Tailwind CSS",
+      "Firebase",
+      "Express.js",
+      "MongoDB"
+    ],
+    "brief_description": "An interactive platform for learning and practicing Arabic vocabulary with quizzes and flashcards.",
+    "live_project_link": "https://arabic-learning.example.com",
+    "github_repo_link": "https://github.com/yourusername/arabic-learning",
+    "challenges_faced_developing_the_project": "Creating an effective learning experience with engaging UI/UX.",
+    "improvement_and_future_plan": "Introduce voice recognition for pronunciation practice and gamification features."
   }
 ]

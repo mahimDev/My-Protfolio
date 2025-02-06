@@ -22,38 +22,44 @@ const Proojects = () => {
                 <div className="lg:flex justify-center items-center lg:gap-10  ">
                     <div className="space-y-5  ">
                         {/* card 1 */}
-                        <Link to={``}>
-                            <div className={`${activeCard === 0 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700`}>
-                                {activeCard === 0 ?
-                                    <img className="w-24" src="https://img.icons8.com/?size=100&id=E6bpJRVimJOF&format=png&color=ffffff" alt="" />
-                                    :
-                                    <img className="w-24" src="https://img.icons8.com/?size=100&id=E6bpJRVimJOF&format=png&color=000000" alt="" />
-                                }
-                                <div>
-                                    <h1 className="text-xl font-semibold">
-                                        HavenHub
-                                    </h1>
-                                    <p className="mt-1 ">
-                                        Hotel booking service provitor
-                                    </p>
+                        <div>
+                            <Link to={`page/1`}>
+                                <div className={`${activeCard === 0 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700 hover:scale-105 `}>
+                                    {activeCard === 0 ?
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=E6bpJRVimJOF&format=png&color=ffffff" alt="" />
+                                        :
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=E6bpJRVimJOF&format=png&color=000000" alt="" />
+                                    }
+                                    <div>
+                                        <h1 className="text-xl font-semibold">
+                                            HavenHub
+                                        </h1>
+                                        <p className="mt-1 ">
+                                            Hotel booking service provitor
+                                        </p>
+                                    </div>
                                 </div>
-                            </div>
-                        </Link>
+                            </Link>
+                        </div>
                         {/* card 2 */}
-                        <div className={`${activeCard === 1 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700`}>
-                            {activeCard === 1 ?
-                                <img className="w-24" src="https://img.icons8.com/?size=100&id=8576&format=png&color=FFFFFF" alt="" />
-                                :
-                                <img className="w-24" src="https://img.icons8.com/?size=100&id=8576&format=png&color=000000" alt="" />
-                            }
-                            <div>
-                                <h1 className="text-xl font-semibold">
-                                    Gadget Heaven
-                                </h1>
-                                <p className="mt-1 ">
-                                    Smart gadget online shop
-                                </p>
-                            </div>
+                        <div>
+                            <Link to={""}>
+                                <div className={`${activeCard === 1 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700 hover:scale-105`}>
+                                    {activeCard === 1 ?
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=8576&format=png&color=FFFFFF" alt="" />
+                                        :
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=8576&format=png&color=000000" alt="" />
+                                    }
+                                    <div>
+                                        <h1 className="text-xl font-semibold">
+                                            Gadget Heaven
+                                        </h1>
+                                        <p className="mt-1 ">
+                                            Smart gadget online shop
+                                        </p>
+                                    </div>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                     <div className=" max-w-[600px] max-h-[500px] rounded-lg overflow-hidden ">
@@ -74,7 +80,7 @@ const Proojects = () => {
                     <div className="space-y-5 ">
 
                         {/* card 3 */}
-                        <div className={`${activeCard === 2 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700`}>
+                        <div className={`${activeCard === 2 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700 hover:scale-105`}>
                             {activeCard === 2 ?
                                 <img className="w-24" src="https://img.icons8.com/?size=100&id=VI3CQhv2GdKl&format=png&color=FFFFFF" alt="" />
                                 :
@@ -90,20 +96,24 @@ const Proojects = () => {
                             </div>
                         </div>
                         {/* card 4 */}
-                        <div className={`${activeCard === 3 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700`}>
-                            {activeCard === 3 ?
-                                <img className="w-24" src="https://img.icons8.com/?size=100&id=1429&format=png&color=FFFFFF" alt="" />
-                                :
-                                <img className="w-24" src="https://img.icons8.com/?size=100&id=1429&format=png&color=000000" alt="" />
-                            }
-                            <div>
-                                <h1 className="text-xl font-semibold">
-                                    GlobalGate
-                                </h1>
-                                <p className="mt-1 ">
-                                    Visa navigation website service
-                                </p>
-                            </div>
+                        <div>
+                            <Link to={"page/2"}>
+                                <div className={`${activeCard === 3 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700 hover:scale-105 `}>
+                                    {activeCard === 3 ?
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=1429&format=png&color=FFFFFF" alt="" />
+                                        :
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=1429&format=png&color=000000" alt="" />
+                                    }
+                                    <div>
+                                        <h1 className="text-xl font-semibold">
+                                            GlobalGate
+                                        </h1>
+                                        <p className="mt-1 ">
+                                            Visa navigation website service
+                                        </p>
+                                    </div>
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
