@@ -23,8 +23,8 @@ const ProjectDetails = () => {
     console.log(projects)
     return (
         <div className="min-h-[100vh] text-white">
-            <img className="w-6/12 mx-auto mt-20" src={project_img} alt="" />
-            <div className="flex justify-center gap-36 my-5">
+            <img className="w-7/12 mx-auto mt-20" src={project_img} alt="" />
+            <div className="flex justify-center lg:gap-36 gap-3 my-5">
                 <Link to={live_project_link}>
                     <h1 className="border p-2 px-4 rounded text-lg bg-gradient-to-r from-[#3b0000e5] to-[#141414] hover:bg-slate-400 shadow-xl hover:shadow-2xl hover:scale-105 duration-300 w-[200px] text-center">
                         Live Link
@@ -38,7 +38,7 @@ const ProjectDetails = () => {
 
             </div>
             <p className="text-center w-1/2 mx-auto mt-10 text-gray-300">{brief_description}</p>
-            <div className="flex justify-center gap-5 mt-10">
+            <div className="lg:flex justify-center gap-5 mt-10 space-y-2  border text-center ">
                 {
                     main_technology_stack?.map((technology) => <div
                         className=" py-4 px-8 text-2xl text-white bg-gradient-to-r from-[#1a1a1ae5] to-[#141414] rounded-br-3xl rounded-tl-3xl max-w-[300px] hover:bg-slate-400 shadow-xl hover:shadow-2xl"

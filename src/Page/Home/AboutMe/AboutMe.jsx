@@ -3,14 +3,14 @@ import SectionTitle from '../../../Components/SectionTile/SectionTitle';
 const AboutMe = () => {
     return (
         <div id="aboutMe" className='text-white'>
-            <h1 className='text-4xl ml-56'></h1>
+
             <SectionTitle title={"A little bit  about me"} />
             <p></p>
 
             <div className="grid grid-cols-1   lg:grid-cols-6  my-20 md:p-10">
                 <div className="col-span-3">
 
-                    <div className="relative  flex  justify-center py-10">
+                    <div className="relative  flex  justify-center pb-10">
                         <div className="w-2/3  h-fit mt-10 text-lg bg-gradient-to-r from-[#1a1a1ae5] to-[#141414] shadow-lg  p-10 rounded-2xl " >
                             <p>
                                 Hi, I'm <strong>Mahim</strong>, a passionate web developer skilled in React, Next.js, Tailwind CSS, and the MERN stack. I love building modern, user-friendly websites and web applications.

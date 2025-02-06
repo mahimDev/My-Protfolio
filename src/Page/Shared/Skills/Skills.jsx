@@ -4,7 +4,7 @@ import "./skills.css";
 const Skills = () => {
     return (
         <div id="skills" className="container mx-auto">
-            <SectionTitle title={"// Skills"} />
+            <SectionTitle title={"\\\\ Skills"} />
             <Marquee >
                 <div className=" flex justify-evenly gap-20 py-20">
 

@@ -14,7 +14,7 @@ const Proojects = () => {
         return () => clearInterval(interval)
     }, [cards.length])
     return (
-        <div className="py-20 mx-auto">
+        <div className="lg:py-20 mx-auto">
             <SectionTitle title={"\\\\Projects"} />
             {/*  */}
             <div className="mt-20  ">
