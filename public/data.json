@@ -37,7 +37,7 @@
   {
     "id": 3,
     "project_name": "Scholarship Management System",
-    "project_img": "https://example.com/scholarship-management.jpg",
+    "project_img": "https://i.ibb.co.com/0nWCqXg/employees-using-laptop-800x450.jpg",
     "main_technology_stack": [
       "React",
       "Tailwind CSS",
@@ -47,15 +47,15 @@
       "JWT"
     ],
     "brief_description": "A platform that helps students find, apply for, and track scholarships efficiently.",
-    "live_project_link": "https://scholarship-management.example.com",
-    "github_repo_link": "https://github.com/yourusername/scholarship-management",
+    "live_project_link": "https://scholar-ease-c79fe.web.app/",
+    "github_repo_link": "https://github.com/mahimDev/scholar-ease-client",
     "challenges_faced_developing_the_project": "Implementing secure authentication and managing complex user roles.",
     "improvement_and_future_plan": "Add an AI-based recommendation system and automate the application process."
   },
   {
     "id": 4,
     "project_name": "Arabic Vocabulary Learning",
-    "project_img": "https://example.com/arabic-learning.jpg",
+    "project_img": "https://i.ibb.co.com/7JvDGmM7/Screenshot-239.png",
     "main_technology_stack": [
       "React",
       "Tailwind CSS",
@@ -64,8 +64,8 @@
       "MongoDB"
     ],
     "brief_description": "An interactive platform for learning and practicing Arabic vocabulary with quizzes and flashcards.",
-    "live_project_link": "https://arabic-learning.example.com",
-    "github_repo_link": "https://github.com/yourusername/arabic-learning",
+    "live_project_link": "https://arabic-vocabulary-94d04.web.app/",
+    "github_repo_link": "https://github.com/mahimDev/arabic-vocabulary-learn",
     "challenges_faced_developing_the_project": "Creating an effective learning experience with engaging UI/UX.",
     "improvement_and_future_plan": "Introduce voice recognition for pronunciation practice and gamification features."
   }

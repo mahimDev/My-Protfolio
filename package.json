@@ -12,10 +12,12 @@
   "dependencies": {
     "@splinetool/react-spline": "^2.2.6",
     "@splinetool/runtime": "^1.0.28",
+    "aos": "^2.3.4",
     "localforage": "^1.10.0",
     "match-sorter": "^6.3.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-fast-marquee": "^1.6.5",
     "react-router-dom": "^6.21.1",
     "sort-by": "^1.2.0"
   },
