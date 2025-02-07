@@ -19,7 +19,7 @@ const Proojects = () => {
             {/*  */}
             <div className="mt-20  ">
                 <div className="lg:flex justify-center items-center lg:gap-10  ">
-                    <div className="space-y-5  ">
+                    <div className="space-y-5 hidden lg:block ">
                         {/* card 1 */}
                         <div>
                             <Link to={`page/1`}>
@@ -61,7 +61,7 @@ const Proojects = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className=" max-w-[700px] max-h-[600px] rounded-lg overflow-hidden ">
+                    <div className=" lg:max-w-[700px] max-w-[400px] max-h-[600px] rounded-lg overflow-hidden mx-auto lg:mx-0 mb-5">
                         {
                             activeCard === 0 && <img className="rounded-lg w-full h-full object-cover hover:scale-105 duration-500" src="https://i.ibb.co.com/Wv93Sn8w/Screenshot-2025-02-06-212153.png" alt="" />
                         }
@@ -75,6 +75,48 @@ const Proojects = () => {
                             activeCard === 3 && <img className="rounded-lg w-full h-full object-cover hover:scale-105 duration-500" src="https://i.ibb.co.com/84ThjtHS/Screenshot-238.png" alt="" />
                         }
 
+                    </div>
+                    <div className="space-y-5 block lg:hidden ">
+                        {/* card 1 */}
+                        <div>
+                            <Link to={`page/1`}>
+                                <div className={`${activeCard === 0 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700 hover:scale-105 `}>
+                                    {activeCard === 0 ?
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=E6bpJRVimJOF&format=png&color=ffffff" alt="" />
+                                        :
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=E6bpJRVimJOF&format=png&color=000000" alt="" />
+                                    }
+                                    <div>
+                                        <h1 className="text-xl font-semibold">
+                                            HavenHub
+                                        </h1>
+                                        <p className="mt-1 ">
+                                            Hotel booking service provitor
+                                        </p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
+                        {/* card 2 */}
+                        <div>
+                            <Link to={"page/4"}>
+                                <div className={`${activeCard === 1 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700 hover:scale-105`}>
+                                    {activeCard === 1 ?
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=8576&format=png&color=FFFFFF" alt="" />
+                                        :
+                                        <img className="w-24" src="https://img.icons8.com/?size=100&id=8576&format=png&color=000000" alt="" />
+                                    }
+                                    <div>
+                                        <h1 className="text-xl font-semibold">
+                                            Gadget Heaven
+                                        </h1>
+                                        <p className="mt-1 ">
+                                            Smart gadget online shop
+                                        </p>
+                                    </div>
+                                </div>
+                            </Link>
+                        </div>
                     </div>
                     <div className="space-y-5 ">
 

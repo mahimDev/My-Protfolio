@@ -1,6 +1,8 @@
+import ContactUs from "../../Shared/ContactUs/ContactUs";
 import Cursor from "../../Shared/Cursor/Cursor";
 import Proojects from "../../Shared/Projects/Proojects";
 import Skills from "../../Shared/Skills/Skills";
+import Tools from "../../Shared/Tools/Tools";
 import AboutMe from "../AboutMe/AboutMe";
 import Banner from "../Banner/Banner";
 const Home = () => {
@@ -17,9 +19,16 @@ const Home = () => {
                     <Skills />
                 </section>
                 <section className="my-20">
+                    <Tools />
+                </section>
+                <section className="my-20">
                     <Proojects />
                 </section>
+                <section className="my-20 ">
+                    <ContactUs />
+                </section>
             </main>
+
             {/* <Carts></Carts> */}
             {/* 3d text */}
             {/* <Demo></Demo> */}

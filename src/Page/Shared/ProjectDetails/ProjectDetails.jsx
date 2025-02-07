@@ -38,14 +38,19 @@ const ProjectDetails = () => {
 
             </div>
             <p className="text-center w-1/2 mx-auto mt-10 text-gray-300">{brief_description}</p>
-            <div className="lg:flex justify-center gap-5 mt-10 space-y-2  border text-center ">
+            <div className="lg:flex lg:justify-center gap-5 mt-10 text-center pl-20 ">
                 {
                     main_technology_stack?.map((technology) => <div
-                        className=" py-4 px-8 text-2xl text-white bg-gradient-to-r from-[#1a1a1ae5] to-[#141414] rounded-br-3xl rounded-tl-3xl max-w-[300px] hover:bg-slate-400 shadow-xl hover:shadow-2xl"
+                        className=" py-4 px-8 text-2xl text-white bg-gradient-to-r from-[#1a1a1ae5] to-[#141414] rounded-br-3xl rounded-tl-3xl max-w-[300px] hover:bg-slate-400 shadow-xl hover:shadow-2xl mt-4"
                         key={technology?.id}>
                         {technology}
                     </div>)
                 }
+            </div>
+
+            <div>
+                <h1 className="text-center py-4 mt-10"><strong >Challenges faced :</strong> {challenges_faced_developing_the_project}</h1>
+                <h1 className="text-center py-4 mb-10"><strong >Future plan :</strong> {improvement_and_future_plan}</h1>
             </div>
         </div>
     );
