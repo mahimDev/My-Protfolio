@@ -1,8 +1,9 @@
 import { Link } from 'react-router-dom';
 import './Navber.css'
+import { useState } from 'react';
 
 const Navber = () => {
-
+    const [menuOpen, setMenuOpen] = useState(false)
     const nav =
         <>
             <li>
@@ -21,7 +22,7 @@ const Navber = () => {
             </li>
             <li>
                 <button
-                    onClick={() => document.getElementById("skills").scrollIntoView({ behavior: "smooth" })}
+                    onClick={() => document.getElementById("projects").scrollIntoView({ behavior: "smooth" })}
                 >
                     {"\\\\Projects"}
                 </button>
@@ -36,18 +37,40 @@ const Navber = () => {
                     Mahim
                 </div> */}
 
-                <div className='ml-24 '>
+                <div className='ml-24 hidden lg:block'>
                     <div className="water ">
                         <h2 className='water-1 '>Mahim</h2>
                         <h2 className='water-2 '>Mahim</h2>
                     </div>
                 </div>
+                {
+                    menuOpen ?
+                        <div>
 
-                <div>
-                    <ul className="lg:flex gap-7 font-medium text-white hidden lg:block">
+                            <button
+                                onClick={() => setMenuOpen(false)}
+                                className="sticky top-10 z-50 left-0 bg-black p-1 rounded-r lg:hidden block">
+                                <img className="w-9 " src="https://img.icons8.com/?size=100&id=dnWj68fbIjQS&format=png&color=E7E7E7" alt="" />
+                            </button>
+                            <ul className="absolute left-0 font-medium text-white bg-black w-fit p-4 rounded-r ">
+                                {nav}
+
+                            </ul>
+                        </div>
+                        :
+                        <button
+                            onClick={() => setMenuOpen(true)}
+                            className="sticky top-0 z-50  bg-black p-1 rounded-r lg:hidden block">
+                            <img className="w-9 " src="https://img.icons8.com/?size=100&id=36389&format=png&color=E7E7E7" alt="" />
+                        </button>
+                }
+
+                <div className='hidden lg:block'>
+                    <ul className="lg:flex gap-7 font-medium text-white ">
                         {nav}
 
                     </ul>
+
                 </div>
                 <div>
                     <button className="botton text-white " >RESUME</button>

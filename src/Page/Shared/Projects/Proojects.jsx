@@ -14,12 +14,12 @@ const Proojects = () => {
         return () => clearInterval(interval)
     }, [cards.length])
     return (
-        <div className="lg:py-20 mx-auto">
-            <SectionTitle title={"\\\\Projects"} />
+        <div id="projects" className="lg:py-20 mx-auto">
+            <SectionTitle title={"\\\\ Projects"} />
             {/*  */}
             <div className="mt-20  ">
                 <div className="lg:flex justify-center items-center lg:gap-10  ">
-                    <div className="space-y-5 hidden lg:block ">
+                    <div className="space-y-8 hidden lg:block ">
                         {/* card 1 */}
                         <div>
                             <Link to={`page/1`}>
@@ -98,7 +98,7 @@ const Proojects = () => {
                             </Link>
                         </div>
                         {/* card 2 */}
-                        <div>
+                        <div className="">
                             <Link to={"page/4"}>
                                 <div className={`${activeCard === 1 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700 hover:scale-105`}>
                                     {activeCard === 1 ?
@@ -118,10 +118,10 @@ const Proojects = () => {
                             </Link>
                         </div>
                     </div>
-                    <div className="space-y-5 ">
+                    <div className="space-y-8">
 
                         {/* card 3 */}
-                        <div>
+                        <div className="mt-7 lg:mt-0">
                             <Link to={'page/3'}>
                                 <div className={`${activeCard === 2 && `${color} `} flex items-center gap-2 border rounded-xl py-2 px-5 max-w-[550px] transition-all duration-700 hover:scale-105`}>
                                     {activeCard === 2 ?

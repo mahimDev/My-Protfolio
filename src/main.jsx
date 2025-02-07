@@ -8,6 +8,7 @@ import { router } from './Routes/Routes.jsx'
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <div
+      className='font-josefin'
     //  className='bg-gradient-to-r from-[#1a1a1ae5] to-[#141414]'
     >
       <RouterProvider router={router}></RouterProvider>
