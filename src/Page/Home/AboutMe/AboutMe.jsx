@@ -29,7 +29,7 @@ const AboutMe = () => {
                     <div className="relative flex justify-center ">
                         <div className="md:w-2/3 h-fit mt-10 text-lg bg-gradient-to-r from-[#1a1a1ae5] to-[#141414] shadow-lg p-10 rounded-2xl">
                             <p>
-                                Hi, I'm <strong>Mahim</strong>. I am a passionate <strong>frontend developer</strong> skilled in **React, Next.js, Tailwind CSS**, and modern web technologies.
+                                Hi, I&abov;m <strong>Mahim</strong>. I am a passionate <strong>frontend developer</strong> skilled in **React, Next.js, Tailwind CSS**, and modern web technologies.
                                 I love crafting visually appealing, **responsive**, and **high-performance** websites that enhance user experience.
                                 Beyond coding, I have been passionate about **photography** since childhood, capturing creativity through my lens.
                             </p>
