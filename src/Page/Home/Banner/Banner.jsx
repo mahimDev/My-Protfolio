@@ -22,6 +22,9 @@ const Banner = () => {
                     <Link to={"https://github.com/mahimDev"}>
                         <img className="lg:w-14 w-10" src="https://img.icons8.com/?size=100&id=LoL4bFzqmAa0&format=png&color=000000" alt="" />
                     </Link>
+                    <Link to={"https://www.linkedin.com/in/mahimdev/"}>
+                        <img className="lg:w-14 w-10" src="https://img.icons8.com/?size=100&id=PP4GYb42QJYA&format=png&color=000000" alt="" />
+                    </Link>
                 </div>
             </div>
         </div>
