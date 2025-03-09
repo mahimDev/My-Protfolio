@@ -73,8 +73,10 @@ const Navber = () => {
 
                 </div>
                 <div>
-                    <button className="botton text-white " >RESUME</button>
+                    <Link to="https://drive.google.com/file/d/1rsQvDUMGDC-wDq-BA5trQYYH33qJVuNL/view?usp=sharing">
+                        <button className="botton text-white " >RESUME</button>
 
+                    </Link>
 
                 </div>
 
