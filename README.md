@@ -6,10 +6,9 @@
 
 ---
 
-<!--
 ## **Career Objective**
 
-Frontend Developer skilled in **React.js, JavaScript, and Tailwind CSS**. Currently expanding expertise in **Next.js, MongoDB, and backend development** to transition into a **Full Stack Developer**. Passionate about building user-friendly and scalable web applications. -->
+Frontend Developer skilled in **React.js, JavaScript, and Tailwind CSS**. Currently expanding expertise in **Next.js, MongoDB, and backend development** to transition into a **Full Stack Developer**. Passionate about building user-friendly and scalable web applications.
 
 ---
 
