@@ -12,13 +12,12 @@ Frontend Developer skilled in **React.js, JavaScript, and Tailwind CSS**. Curren
 
 ---
 
-<!--
 ## **Skills**
 
 **Frontend:** React.js, JavaScript, Next.js, HTML, CSS, Tailwind CSS\
 **Backend (Learning):** Node.js, Express.js, MongoDB, Firebase\
 **Tools:** Git, GitHub, VS Code, NPM, Figma, Canva\
-**Soft Skills:** Problem-solving, Teamwork, Time management, Fast learner -->
+**Soft Skills:** Problem-solving, Teamwork, Time management, Fast learner
 
 <!-- ---
 
