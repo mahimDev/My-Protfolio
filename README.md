@@ -19,7 +19,7 @@ Frontend Developer skilled in **React.js, JavaScript, and Tailwind CSS**. Curren
 **Tools:** Git, GitHub, VS Code, NPM, Figma, Canva\
 **Soft Skills:** Problem-solving, Teamwork, Time management, Fast learner
 
-<!-- ---
+---
 
 ## **Projects**
 
@@ -31,8 +31,9 @@ Frontend Developer skilled in **React.js, JavaScript, and Tailwind CSS**. Curren
 
 - Visa application tracking system
 - Country-based visa info
-- Secure user authentication -->
+- Secure user authentication
 <!--
+
 ### **2. HavenHub**
 
 **Overview:** A hotel booking platform with role-based user authentication and payment integration.\
