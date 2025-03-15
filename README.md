@@ -43,7 +43,7 @@ Frontend Developer skilled in **React.js, JavaScript, and Tailwind CSS**. Curren
 - Role-based user authentication
 - Payment integration
 
-<!-- ### **3. ScholarEase (Scholarship Management System)**
+### **3. ScholarEase (Scholarship Management System)**
 
 **Overview:** A portal for students to apply for scholarships with an admin dashboard for reviews.\
 🔗 [Live Project](https://scholar-ease-c79fe.web.app/) | [Client GitHub](#) | [Server GitHub](#)\
@@ -53,7 +53,7 @@ Frontend Developer skilled in **React.js, JavaScript, and Tailwind CSS**. Curren
 - Admin dashboard for review
 - Automated email notifications
 
---- -->
+---
 
 ## **Education**
 
