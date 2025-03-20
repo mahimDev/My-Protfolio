@@ -61,8 +61,8 @@ Frontend Developer skilled in **React.js, JavaScript, and Tailwind CSS**. Curren
 
 ---
 
-<!-- ## **Languages**
+## **Languages**
 
-Bengali (Native) | English (Intermediate) | Arabic (Basic) -->
+Bengali (Native) | English (Intermediate) | Arabic (Basic)
 
 ---
